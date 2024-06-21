@@ -1,0 +1,37 @@
+{
+  "name": "js-libp2p",
+  "version": "1.0.0",
+  "description": "Project js-libp2p node",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "shalom",
+    "email": "shalom.iyeze@gmail.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^15.0.0",
+    "@libp2p/mplex": "^10.1.0",
+    "@libp2p/ping": "^1.1.0",
+    "@libp2p/tcp": "^9.1.0",
+    "libp2p": "^1.7.0",
+    "multiaddr": "^10.0.1"
+  }
+}
